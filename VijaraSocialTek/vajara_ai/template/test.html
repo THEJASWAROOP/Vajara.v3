@@ -1,0 +1,25 @@
+{% set j=1 %}
+                                  {% for i in item.values %}
+                                      {% if j==1 %}
+                                      {% a = i %}
+                                      {% j=j+1 %}
+                                      {% elif j==2 %}
+                                      {% b = i %}
+                                      {% j= j+1%}
+                                      {% elif j==3 %}
+                                      {% c= i % }
+                                      {% endif %}
+
+
+
+
+
+
+
+                                      {% if t == "Contact" %}
+                                    {% set con = j %}
+                                    {% elif t == "Name" %}
+                                    {% set nam = j %}
+                                    {% elif t == "Course" %}
+                                    {% set cou = j %}
+                                    {% endif %}
